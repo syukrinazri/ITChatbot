@@ -1,0 +1,202 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hey", "hi", "good day", "Greetings", "What's up?"],
+    "responses": ["Hi, What can I do for you"]
+    },
+    {"tag": "greetings2",
+    "patterns": ["how are you", "how's your day", "how you are doing", "how is it going", "how is your day", "are you doing good"],
+    "responses": ["Great, hope that you are doing fine too"]
+    },
+    {"tag":"age",
+    "patterns":["how old", "how old are you", "What is your age", "age?"],
+    "responses":["Few months old!"]
+    },
+    {"tag":"smalltalks",
+    "patterns":["i like talking to you", "you are fun", "pleasure talking to you"],
+    "responses":["The pleasure is mine"]
+    },
+    {"tag":"thank",
+    "patterns":["Thank you for your service", "Thank you for your help", "Thank you"],
+    "responses":["Thank you for using our service. Please feel free to contact us again if you need any assistance"]
+    },   
+    {"tag": "goodbye",
+    "patterns": ["Thank you for your service", "See you later", "goodbye", "I am leaving", "Have a Good day", "bye", "cao", "see ya", "cya"],
+    "responses": ["Good bye and have a good day"]
+    },
+    {"tag":"name",
+    "patterns":["What is you name", "What should i call you", "What's your name?", "who are you?", "Can you tell me you name?"],
+    "responses": ["You can call me Ben", "I'm Ben!", "I'm Ben your chatbot Assistant"]
+    },
+    {"tag": "cafeteria",
+    "patterns":["Could you point me to the cafeteria", "Where is the cafe?", "Where is the cafeteria", "I would like to eat", "Where do people take break?"],
+    "responses": ["Please go to the elevator and get to 3rd Floor. After that, turn right and walk straight. You will find the cafeteria there."]
+    },
+    {"tag":"hours",
+    "patterns": ["When can I contact you guys?", "What are you hours?", "hours of operation"],
+    "responses": ["24/7"]
+    },
+    {"tag":"WantToTalkToAgent",
+    "patterns":["Can I talk to the real person?", "Please let me speak to an agent", "Please connect me to the customer support", "Please let me talk to the helpdesk", "helpdesk please!"],
+    "responses":["##### We will connect you to the helpdesk #####"]
+    },
+    {"tag":"PhoneIssue",
+    "patterns":["I have problem with my phone", "My phone have issue", "Please check my phone"],
+    "responses":["May I know specifically what kind of problem with your phone"]
+    },
+    {"tag":"PhoneApplication",
+    "patterns":["I want to apply a new phone", "I want to have a new company issued phone", "How to get a new company phone"],
+    "responses":["To apply for a new company phone, please register at servicenow.helpdesk.com/device."]
+    },
+    {"tag":"PhoneCannotUnlock",
+    "patterns":["I cannot unlock my mobile phone", "Unable to unlock phone", "Phone is locked"],
+    "responses":["Please click this link to unlock your phone or call our agent"]
+    },
+    {"tag":"EmailOutlookIssue",
+    "patterns":["I cannot open my email account", "My outlook have issue", "Unable to read email"],
+    "responses":["If you are unable to open outlook, please delete the ost file located at :/Users/user/AppData/Local/Microsoft/Outlook. If this does not work, please contact our agents"]
+    },
+    {"tag":"SoftwareFreezes",
+    "patterns":["My PC is not responding", "Software freezes", "I click, but nothing is working", "Application stopped working"],
+    "responses":["Please press ctrl + shift + esc. A windows will appear. Try to click on application that is not responding and then click [EndTask]"]
+    },
+    {"tag":"MicrosoftWord",
+    "patterns":["I would like to install microsoft words", "There is no microsoft words in this device", "No words in this PC", "No Microsoft Words in my mac"],
+    "responses":["To Install Microsoft Words, please contact the Office365 teams at office365@helpdesk.com"]
+    },
+    {"tag":"Office365LicenceIssue",
+    "patterns":["My licence for office365 seems expired", "Office 365 is already expired", "There is problem with the licence of office365", "Office365 is expired", "Microsoft Office will expire", "Microsoft Office will expire in few days", "Warning, microsoft office will expire in few weeks"],
+    "responses":["We are very sorry for this issue, please contact the Office365 teams at office365@helpdesk.com"]
+    },
+    {"tag":"InstallCertainSoftware",
+    "patterns":["I would like to install certain software", "I would like to install something", "Please install a software"],
+    "responses":["To install certain software, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"SnagitInstallation",
+    "patterns":["I would like to install Snagit", "Please install snagit", "get me snagit for my PC"],
+    "responses":["To install snagit or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"GoogleChromeInstallation",
+    "patterns":["My PC do not have Google Chrome installed", "Google Chrome is not installed", "Please install google chrome into my PC", "I am unable to use google chrome browser"],
+    "responses":["To install google chrome or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"FireFoxInstallation",
+    "patterns":["My PC do not have firefox browser installed", "Fire Fox is not installed", "Please install Firefox browser into my PC", "I am unable to use Mozilla Firefox browser"],
+    "responses":["To install Mozilla Firefox or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"AdobeFlashPlayerInstallation",
+    "patterns":["Adobe Flash player warning", "Adobe flash player required warning appeared in my PC", "When opening certain company website, the site ask for adobe flash player"],
+    "responses":["Adobe Flash Player is already discontinued, please contact our agent for more details, if you are unable to access certain software or website because of this issue."]
+    },
+    {"tag":"MicrosoftOfficePro",
+    "patterns":["I need to install the Pro version of Microsoft Office", "Please install office pro", "I need microsoft pro instead"],
+    "responses":["To install or upgrade Microsoft related software, please contact the Office365 teams at office365@helpdesk.com. For other software please make your request at servicenow.helpdesk.com/softwareinstallation "]
+    },
+    {"tag":"FilezillaInstallation",
+    "patterns":["I need filezilla to transfer file", "Please install filezilla", "I do not have filezilla in my pc", "Please install file zila"],
+    "responses":["To install Filezilla or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"WinSCP",
+    "patterns":["I need win scp to transfer files between server", "Please install Win SCP", "I do not have WinSCP in my PC", "I was instructed to install Win SCP for my job"],
+    "responses":["To install WinSCP or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"Teraterm",
+    "patterns":["I am admin for certain server and need teraterm to access to it", "I need to connect to a linux server, please install teraterm", "I need Teraterm for my PC", "Please install teraterm"],
+    "responses":["To install Teraterm or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"AcrobatReaderDC",
+    "patterns":["I would like to install Adobe Reader DC", "I would like to install AdobeReaderDC", "I would like to install AdobeReader DC", "Please install adobe reader DC", "I need Adobe Reader DC"],
+    "responses":["To install Adobe Reader DC or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"AdobeAcrobatPro",
+    "patterns":["I would like to install Adobe Reader Pro", "I would like to install AdobeReaderPro", "I would like to install AdobeReader Pro", "Please install adobe reader Pro", "I need Adobe Reader Pro"],
+    "responses":["To install Adobe Reader Pro or any software unrelated to microsoft, please log in to servicenow.helpdesk.com/softwareinstallation and fill in the software request form"]
+    },
+    {"tag":"Network",
+    "patterns":["I do not have internet", "I cannot connect to network", "I cannot connect to ethernet", "Please connect me to the internet", "Please connect me to the network", "Please connect me to the ethernet", "I could not connect to network"],
+    "responses":["Please connect LAN cable to the red cable behind your PC, if this does not work please call the helpdesk agent, we will fix the problem for you."]
+    },
+    {"tag":"VPNRegister",
+    "patterns":["This is my first time using VPN", "Please tell me how to get VPN connection", "How to connect to the VPN", "Please tell me how to have connection to the company via VPN"],
+    "responses":["If this is your first time using VPN, please register at servicenow.helpdesk.com/vpnregister"]
+    },
+    {"tag":"VPNIssue",
+    "patterns":["I have problem with VPN connection", "I could not connect to the company VPN", "VPN does not work", "VPN do not work"],
+    "responses":["If you are first time user of VPN, please register now at servicenow.helpdesk.com/vpnregister. If not, please fill in the form that will pop up. A ticket will be filled and we will have our agent check the condition of your vpn"]
+    },
+    {"tag":"MobileWifi",
+    "patterns":["I want to have a mobile wifi", "Please tell me how to use mobile wifi", "How to apply for mobile wifi"],
+    "responses":["To apply for mobile wifi, please register at servicenow.helpdesk.com/device . If you already registered or already own a mobile wifi dongle, please check the pdf manual on how to use it at the same page"]
+    },
+    {"tag":"Education",
+    "patterns":["I would like to access the education page", "Please lead me to the education page", "Tell me how I can access the company's education page"],
+    "responses":["You can access the education page at education.company.com"]
+    },
+    {"tag":"EducationPageCannotAccess",
+    "patterns":["I cannot access the education page", "Education page failed to launch", "There is error when accessing the education page"],
+    "responses":["Please clear the cache of your browser and try again. If this does not work, please try again using other browser. If the problem persist, please contact our agent."]
+    },
+    {"tag":"LearnCCNA",
+    "patterns":["I want to learn CCNA", "Please tell me how to learn CCNA", "Is there any course related to CCNA"],
+    "responses":["You can take the CCNA course and other course at education.company.com"]
+    },
+    {"tag":"LearnComptia",
+    "patterns":["I want to learn CompTIA certification", "Please tell me how to learn CompTIA certification", "Is there any course related to CompTIA certification"],
+    "responses":["You can take the Comptia certification such asNetwork+ course and other course at education.company.com"]
+    },
+    {"tag":"LearnCyberSecurity",
+    "patterns":["I want to learn cyber security", "Please tell me how to learn cyber security ", "Is there any course related to cyber security"],
+    "responses":["You can learn cyber security and other courses at education.company.com"]
+    },
+    {"tag":"LearnAWS",
+    "patterns":["I want to learn AWS cloud", "Please tell me how to learn AWS cloud ", "Is there any course related to AWS cloud"],
+    "responses":["You can learn AWS and other courses at education.company.com"]
+    },
+    {"tag":"LearnGoogleCloud",
+    "patterns":["I want to learn Google cloud", "Please tell me how to learn Google cloud ", "Is there any course related to Google cloud"],
+    "responses":["You can learn Google cloud and other courses at education.company.com"]
+    },
+    {"tag":"ContactSecurity",
+    "patterns":["Please tell me how to contact the security", "I need to talk to the security", "Give me the phone number to the security"],
+    "responses":["You can contact the security at the following number XXX-XXXXXXX"]
+    },
+    {"tag":"Complaint",
+    "patterns":["I want to complain", "I am not satisfied with your service and want to issue a complaint", "Your service is not up to satisfaction"],
+    "responses":["We are very sorry that you feel this way, please fill in the form and wait for our agent to call you."]
+    },
+    {"tag":"VDIApplication",
+    "patterns":["I want to setup VDI", "Please provide new VDI for me", "I need a VDI"],
+    "responses":["To apply for a new company phone, please register at servicenow.helpdesk.com/device."]
+    },
+    {"tag":"VDIIssue",
+    "patterns":["Please reboot my VDI", "Please restart my VDI", "My VDI is not responding", "My VDI stopped working"],
+    "responses":["We will check your request. If we decide that your VDI need a reboot, please wait for our agent to reboot your VDI"]
+    },
+    {"tag":"FilterHateSpeach",
+    "patterns":["Fuck you", "You piece of shit", "This chatbot sucks"],
+    "responses":["We are sorry that you feel this way, we are constantly trying to improve the system"]
+    },
+    {"tag":"EncryptionIssue",
+    "patterns":["I would like to encrypt my files", "Please tell me how I can encrypt files", "I need to encrypt files"],
+    "responses":["Please request for installation of AxCrypt or 7-zip. You can do that at servicenow.helpdesk.com/softwareinstallation"]
+    },
+    {"tag":"BitLocker",
+    "patterns":["There is Bitlocker error when I open my PC", "I cannot boot the PC properly because of Bitlocker issue", "Please solve my bitlocker issue"],
+    "responses":["We will have our agent call you. Please tell the key to the agent and follow their instruction."]
+    },
+    {"tag":"MonitorIssue",
+    "patterns":["My monitor is not showing anything", "Screen does not appear", "Nothing is showing on my PC"],
+    "responses":["Please check whether the monitor cable is connected to power. Then checked whether the LED lights normally. After that, please check whether the HDMI cable is connected to your device. If all does not work, please contact our agent."]
+    },
+    {"tag":"PCNoPower",
+    "patterns":["My PC does not light up", "I cannot on my PC", "My PC does not boot"],
+    "responses":["Please check whether the PC is connected to the power source. Then check whether HDMI cable is connected to the device. If it does not work, please try to change the power source to the one next to it. If all does not work, please call our agent."]
+    },    
+    {"tag":"AudioIssue",
+    "patterns":["My PC do not not have sound", "No audio coming out from my PC", "Computer audio is not normal", "I have problem with my audio"],
+    "responses":["Please check that the audio is not muted. You can do that by clicking the speaker button on the lower right. If you are using other audio device such as earphone, please check your earphone with you phone and see whether there is issue with it. If everything does not work, please contact our agent"]
+    },
+    {"tag":"Other",
+    "patterns":["Maru", "Maru", "Maru"],
+    "responses":["Please ask your question in a different way."]
+    }
+]}
